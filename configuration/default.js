@@ -15,7 +15,9 @@ module.exports = {
         port: 1883,
         topics: {
             transactionValue: 'strichliste/transactionValue'
-        }
+        },
+        username: null,
+        password: null
     },
 
     boundaries: {
